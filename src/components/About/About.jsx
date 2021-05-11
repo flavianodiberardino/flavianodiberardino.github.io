@@ -19,12 +19,30 @@ const About = () => {
         I'm a guy who is passionate about new technologies, I recently did a four months boot camp and ended with +800 hours of coding. I learned a lot of things not only about coding but also about teamwork. My main technologies are <span className={styles.span}>JavaScript, NodeJS, ExpressJS, React-Redux, SQL, PostgreSQL and Sequelize</span>. I also know other tools such as <span className={styles.span}> SupaBase, HTML5, CSS3 and SASS.</span>
       </p>
       <div className={styles.icons}>
-        <DiJavascript color='#fff' size='5rem'/>
-        <DiHtml5 color='#FF5D00' size='5rem'/>
-        <DiCss3 color='#fff' size='5rem'/>
-        <DiNodejsSmall color='#FF5D00' size='5rem'/>
-        <DiReact color='#fff' size='5rem'/>
-        <DiPostgresql color='#FF5D00' size='5rem'/>
+        <div className={styles.tech}>
+          <DiJavascript color='#fff' size='5rem'/>
+          <span style={{color: '#FF5D00'}}>JavaScript</span>
+        </div>
+        <div className={styles.tech}>
+          <DiHtml5 color='#FF5D00' size='5rem'/>
+          <span style={{color: '#fff'}}>HTML5</span>
+        </div>
+        <div className={styles.tech}>
+          <DiCss3 color='#fff' size='5rem'/>
+          <span style={{color: '#FF5D00'}}>CSS3</span>
+        </div>
+        <div className={styles.tech}>
+          <DiNodejsSmall color='#FF5D00' size='5rem'/>
+          <span  style={{color: '#fff'}}>NodeJS</span>
+        </div>
+        <div className={styles.tech}>
+          <DiReact color='#fff' size='5rem'/>
+          <span  style={{color: '#FF5D00'}}>React</span>
+        </div>
+        <div className={styles.tech}>
+          <DiPostgresql color='#FF5D00' size='5rem'/>
+          <span  style={{color: '#fff'}}>PostgreSQL</span>
+        </div>
         {/* <DiGithubAlt color='#fff' size='5rem'/> */}
       </div>
     </div>

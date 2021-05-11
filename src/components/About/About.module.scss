@@ -65,5 +65,19 @@
       width: 100%;
       // position: fixed;
     }
+    .tech {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      transition: 500ms;
+      &:hover {
+        transition: 500ms;
+        transform: scale3d(1.1, 1.1, 1);
+      }
+      span {
+        font-size: 1rem;
+      }
+    }
   }
 }
