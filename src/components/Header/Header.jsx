@@ -34,13 +34,13 @@ const Header = () => {
         if(currentScrollY >= 0 ) {
           setSelected('1')
         }
-        if(currentScrollY > 300) {
+        if(currentScrollY > 270) {
           setSelected('2')
         }
-        if(currentScrollY > 950) {
+        if(currentScrollY > 940) {
           setSelected('3')
         }
-        if(currentScrollY > 1850) {
+        if(currentScrollY > 1930) {
           setSelected('4')
         }
         if (prevScrollY.current < currentScrollY && goingUp) {

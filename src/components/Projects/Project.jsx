@@ -5,7 +5,7 @@ import styles from './Project.module.scss'
 const Project = () => {
   const projects = [
     {
-      name: 'TechStore',
+      name: 'TECHSTORE',
       description: `This is an e-commerce where you can buy anything from computers to its 
       components. It was made as the final project for Henry's Boot Camp. 
       The technologies that we used are React-Redux, Supabase and also Node.js with Express.`,
@@ -13,7 +13,7 @@ const Project = () => {
       github: 'https://github.com/henry-labs/ecommerce-FT10-G1'
     },
     {
-      name: 'World Video Games',
+      name: 'WORLD VIDEO GAMES',
       description: `This is a simple app that i made as individual project for Henry's Boot Camp.
       It's an app were you can find your favorite video games, you can see its full info. I used React-Redux,
       PostgreSQL, Sequelize, NodeJS and Express.`,

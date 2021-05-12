@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 35rem;
+  height: 40rem;
   position: relative;
   @media only screen 
   and (min-device-width: 375px) 
@@ -16,15 +16,17 @@
 
   .title {
     font-size: 2.5rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    // font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     // border-bottom: 3px solid #FF711F;
-    align-self: center;
-    letter-spacing: 0.10rem;
-    font-weight: 500;
+    // align-self: center;
+    // letter-spacing: 0.10rem;
+    font-weight: 300;
     margin-bottom: 7rem;
     // height: 10rem;
     // padding-bottom: 0.5rem;
     color: #fff;
+    border-bottom: 3px solid#FF5D00;
+    padding-bottom: 1rem;
   }
 
   .icons {

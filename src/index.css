@@ -1,11 +1,16 @@
-body {
-  margin: 0;
-  font-family: 'Courier New', Courier, monospace;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: #020528;
-  scroll-behavior: smooth;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400&display=swap');
 
+body {
+  margin: 0 auto;
+  font-family: 'Roboto Mono', monospace;
+  background-color: #020528;
+  /* scroll-behavior: smooth;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center; */
+  /* width: 90%; */
 }
 @media only screen 
 and (min-device-width: 375px) 

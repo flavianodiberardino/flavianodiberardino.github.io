@@ -4,9 +4,9 @@
   justify-content: center;
   align-items: center;
   text-align: justify;
-  height: 50rem;
+  height: 55rem;
   color: #fff;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  // font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-bottom: 7rem;
   
   @media only screen 
@@ -23,12 +23,14 @@
   .title {
     font-size: 2.5rem;
     // border-bottom: 3px solid #FF711F;
-    align-self: center;
-    letter-spacing: 0.10rem;
-    font-weight: 500;
-    margin-bottom: 3rem;
+    // align-self: center;
+    // letter-spacing: 0.10rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
     // padding-bottom: 0.5rem;
     color: #fff;
+    border-bottom: 3px solid#FF5D00;
+    padding-bottom: 1rem;
     // bottom: 0.25rem;
     // border-radius: 5px;
     // border-bottom-left-radius: 5px;
@@ -37,8 +39,10 @@
   }
 
   .p_white {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     width: 50%;
+    font-weight: 300;
+    // opacity: 80%;
     @media only screen 
     and (min-device-width: 375px) 
     and (max-device-width: 812px) 
@@ -77,6 +81,7 @@
       }
       span {
         font-size: 1rem;
+        font-weight: 300;
       }
     }
   }
